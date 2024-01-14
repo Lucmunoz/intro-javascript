@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 1 - JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+
+<body>
+    <section>
+        <div class="card">
+            <div class="img-card"></div>
+              <h6>Laptop Gamer AMD</h6>
+              <p>Precio base: $<span class="precio-inicial" id="valor-unitario"></span> </p>
+              <p>Cantidad:
+                <span class="cantidad" id="cantidad-inicial">0</span>
+                <button class="btn-mas" id="btn-mas">+</button>
+                <button class="btn-menos" id="btn-menos">-</button>
+                
+                <!-- Las siguientes lineas de código proponen una solución según indica el desafío. Agregando el evento onclick al elemento HTML-->
+                <!-- <br>-->
+                <!--<INPUT type="button" class="btn-mas" id="btn-mas" value="+" onclick="AumentaCantidad()">-->
+                <!--<INPUT type="button" class="btn-menos" id="btn-menos" value="-" onclick="DisminuyeCantidad()">-->
+                
+                <!--<br>-->
+                <!--<button class="btn-mas" id="btn-mas" value="+" onclick="AumentaCantidad()">+</button>-->
+                <!--<button class="btn-menos" id="btn-menos" value="+" onclick="DisminuyeCantidad()">-</button>-->
+
+              </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="total-section">
+        <p>Total a pagar: $<span class="valor-total" id="valor-total"></span> </p>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
